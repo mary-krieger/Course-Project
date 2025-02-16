@@ -1,5 +1,4 @@
-height = float(input("Enter the height: "))
-width = float(input("Enter the width: "))
-depth = float(input("Enter the depth: "))
-volume = height * width * depth
-print("The volume of the cuboid is", volume, "cubic units.")
+mass = float(input("Enter the mass of the object in kilograms: "))
+velocity = float(input("Enter the velocity of the object in meters per second: "))
+momentum = mass * velocity
+print("The momentum of the object is", momentum, "kg*m/s.")

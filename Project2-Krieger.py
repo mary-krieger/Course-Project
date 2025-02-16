@@ -1,4 +1,3 @@
-length = float(input("Enter the length: "))
-width = float(input("Enter the width: "))
-area = length * width
-print("The area is", area, "square units.")
+length = int(input("Enter the length of an edge: "))
+surfaceArea = 6 * length ** 2
+print("The surface area of the cube is", surfaceArea, "square units.")
